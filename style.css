@@ -127,7 +127,7 @@ a {
 .nav-bar .toggle-collapse .toggle-icons{
     display: flex;
     justify-content: flex-end;
-    padding: 1.7rem 0;
+    padding: 1rem 0;
 }
 .nav-bar .toggle-collapse .toggle-icons i {
     font-size: 1.4rem;
@@ -1494,10 +1494,10 @@ a {
 
 @media (max-width:360px) {
     .nav-left img {
-        width: 200px;
+        width: 140px;
     }
     .jumbo-tron {
-        height: 28vh;
+        height: 42vh;
     }
     .column-2 img {
         width: 189px;
@@ -1606,5 +1606,20 @@ a {
     }
     .blog-sec-2 .blog-news-part .blog-news p {
         font-size: .5rem;
+    }
+    .question-1 {
+        margin-left:2rem ;
+        padding-right:1rem;
+    }
+    .question-1 input {
+        width: 9rem;
+    }
+    .question-1 textarea {
+        width: 9rem;
+        height: 7rem;
+    }
+    .question-2 {
+        margin-right: 2rem;
+        margin-left: 2rem;
     }
 }
