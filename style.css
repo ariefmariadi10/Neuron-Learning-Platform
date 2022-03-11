@@ -369,7 +369,8 @@ a {
 .about-play span {
     margin-right: .5rem;
     padding: 10px 16px;
-    background: #fff;
+    background: transparent;
+    border: 1px solid var(--blue);
     color: var(--blue);
     border-radius: 30px;
     font-size: 1.5rem;
@@ -1175,7 +1176,7 @@ a {
         padding: 0 1rem;
     }
     .jumbo-tron {
-        height: 21vh;
+        height: 23vh;
     }
     .column-1 {
         padding: 0 0 0 2rem;
@@ -1549,7 +1550,7 @@ a {
         width: 270px;
     }
     .about-play {
-        transform: translate(120px, -120px);
+        transform: translate(100px, -120px);
     }
     .right-fitur-1 img {
         width: 310px;
