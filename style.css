@@ -1269,6 +1269,8 @@ a {
     }
     .about-class h1 {
         font-size: 1rem;
+        padding: 0;
+        margin: 0;
     }
     .about-class h1 span {
         font-size: 1rem;
@@ -1278,6 +1280,8 @@ a {
         font-size: .8rem;
         margin-top: 10px;
         margin-bottom: 5px;
+        margin-right: 0;
+        
     }
     .about-class-1 a {
         font-size: .8rem;
@@ -1484,5 +1488,122 @@ a {
     }
     .copyright h1 {
         font-size: .7rem;
+    }
+}
+
+@media (max-width:360px) {
+    .nav-left img {
+        width: 200px;
+    }
+    .jumbo-tron {
+        height: 28vh;
+    }
+    .column-2 img {
+        width: 189px;
+    }
+    .jumbo-tron svg {
+        transform: translateY(-60px); 
+    }
+    .column-1 h1 {
+        font-size: .8rem;
+    }
+    .column-1 p {
+        font-size: .6rem;
+    }
+    .jumbo-button button {
+        padding: 1px 3px;
+        font-size: .35rem;
+    }
+    .jumbo-button span {
+        padding: 1.2px 2px;
+        margin-right: .1rem;
+    }
+    .jumbo-button a {
+        font-size: .35rem;
+    }
+    .about-fitur {
+        margin-top: 1rem;
+    }
+    .fitur-section {
+        padding-top: 1rem;
+    }
+    .fitur-part .container {
+        margin: 0 1rem;
+        padding: 0rem 1rem;
+        margin-top: 2rem;
+    }
+    .fitur-part .container p {
+        font-size: .8rem;
+    }
+    .fitur-part .container > .fitur-icon {
+        right: 7vw;
+        bottom: 2.5vh;
+    }
+    .fitur-part .container > .fitur-icon img {
+        width: 30%;
+    }
+    .container-child {
+        transform: translate(50px, -160px);
+    }
+    .about-class-2 img {
+        width: 270px;
+    }
+    .about-play {
+        transform: translate(120px, -120px);
+    }
+    .right-fitur-1 img {
+        width: 310px;
+    }
+    .our-fitur-4 {
+        margin: 0;
+    }
+    .left-fitur-3 {
+        text-align: center;
+        margin: 0;
+        transform: translateY(220px);
+    }
+    .right-fitur-3 {
+        transform: translateY(-230px);
+    }
+    .right-fitur-3 img {
+        width: 300px;
+    }
+    .left-fitur-4 img{
+        width: 300px;
+    }
+    .left-fitur-5 {
+        transform: translateY(160px);
+        text-align: center;
+        margin: 0;
+    }
+    .right-fitur-5 {
+        transform: translateY(-250px);
+    }
+    .right-fitur-5 img {
+        width: 280px;
+    }
+    .testi-2 img {
+        width: 300px;
+    }
+    .blog-sec .blog-tittle {
+        margin-top: 6rem;
+    }
+    .blog-sec .blog-tittle h1 {
+        font-size: 1.2rem;
+    }
+    .blog-sec-2 .blog-news-part {
+        height: 120px;
+    }
+    .blog-sec-2 img {
+        width: 100px;
+    }
+    .blog-sec-part .blog-sec-1 .blog-h1 {
+        font-size: 1rem;
+    }
+    .blog-sec-2 .blog-news-part .blog-news a {
+        font-size: .5rem;
+    }
+    .blog-sec-2 .blog-news-part .blog-news p {
+        font-size: .5rem;
     }
 }
