@@ -1497,7 +1497,8 @@ a {
         width: 170px;
     }
     .jumbo-tron {
-        height: 26vh;
+        height: 27vh;
+        position: static;
     }
     .column-2 img {
         width: 189px;
