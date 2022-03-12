@@ -1494,10 +1494,10 @@ a {
 
 @media (max-width:360px) {
     .nav-left img {
-        width: 190px;
+        width: 170px;
     }
     .jumbo-tron {
-        height: 20vh;
+        height: 26vh;
     }
     .column-2 img {
         width: 189px;
